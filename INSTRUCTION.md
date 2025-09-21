@@ -24,6 +24,26 @@ docker run -d \
   --network todolist-net \
   -p 8000:8000 \
   todoapp:2.0.0
+```
+
+3. Update settings.py
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'mysql.connector.django',
+        'NAME': 'app_db',
+        'USER': 'app_user',
+        'PASSWORD': '1234',
+        'HOST': 'mysql-local',
+        'PORT': '3306',
+    }
+}
+
+```
+
+
+
 
 
 ```
