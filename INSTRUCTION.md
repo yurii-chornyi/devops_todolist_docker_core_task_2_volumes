@@ -44,8 +44,8 @@ DATABASES = {
 
 
 4. Docker Hub Images
-    - MySQL image: https://hub.docker.com/repository/docker/<your-username>/mysql-local
-    -  Django App image: https://hub.docker.com/repository/docker/<your-username>/todoapp
+    - MySQL image: https://hub.docker.com/repository/docker/yurirr/mysql-local/general
+    -  Django App image: https://hub.docker.com/repository/docker/yurirr/todoapp/general
 
 
 
