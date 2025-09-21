@@ -1,6 +1,6 @@
 1. Run MySQL Container
 Run the MySQL container with a volume attached:
-`
+```
 docker build -t mysql-local:1.0.0 -f Dockerfile.mysql .
 docker network create todolist-net
 docker run -d \
@@ -10,4 +10,4 @@ docker run -d \
   -p 3306:3306 \
   mysql-local:1.0.0
 
-`
+```
