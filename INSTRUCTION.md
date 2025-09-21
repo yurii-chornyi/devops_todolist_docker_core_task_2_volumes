@@ -1,4 +1,5 @@
 1. Run MySQL Container
+   
 Run the MySQL container with a volume attached:
 ```
 docker build -t mysql-local:1.0.0 -f Dockerfile.mysql .
